@@ -22,7 +22,7 @@ public class Main {
         for(int i = 0; i < tries; i++) {
             Doors doors = new Doors();
 
-            prise = doors.chooseDoorNoChange(random.nextInt(3));
+            prise = doors.chooseDoorWithChange(random.nextInt(3));
 
 
 

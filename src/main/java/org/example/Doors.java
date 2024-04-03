@@ -42,13 +42,13 @@ public class Doors {
 
     public Prise chooseDoorNoChange(int i){
         needTochange = false;
-        return chooseDoorNoChange(i);
+        return chooseDoor(i);
 
     }
 
     public Prise chooseDoorWithChange(int i){
         needTochange = true;
-        return chooseDoorNoChange(i);
+        return chooseDoor(i);
     }
 
     private Prise chooseDoor(int i) {
